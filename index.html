@@ -1,151 +1,106 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>Madhur Gupta's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="./css/main.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Madhur Gupta – Software Engineer</title>
+<meta name="description" content="Madhur Gupta is a senior software engineer working on storage systems, backend services and LLM tooling.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f4;--ink:#1c2530;--muted:#55616e;--line:#c5d0da;--accent:#0f6b6b;--card:#f8fafb}
+@media (prefers-color-scheme:dark){:root{--bg:#141a21;--ink:#e6ebf0;--muted:#9aa7b3;--line:#2c3743;--accent:#5fc4bd;--card:#1a222b}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.125rem/1.7 "Source Serif 4",Georgia,serif}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.5rem}
+header{padding:5rem 0 3rem}
+h1{font:800 clamp(3rem,10vw,5.5rem)/0.95 "Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-0.03em;margin:0 0 1.25rem}
+.lede{font-size:1.35rem;max-width:36rem;margin:0 0 1.5rem}
+nav{display:flex;gap:1.5rem;flex-wrap:wrap;font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:500}
+h2{font:700 1.6rem/1.2 "Bricolage Grotesque",system-ui,sans-serif;margin:0 0 1.5rem}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+.jobs{list-style:none;margin:0;padding:0 0 0 1.5rem;border-left:2px solid var(--line)}
+.jobs li{position:relative;margin-bottom:2rem}
+.jobs li::before{content:"";position:absolute;left:calc(-1.5rem - 6px);top:.6rem;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.jobs h3{font:700 1.15rem/1.3 "Bricolage Grotesque",system-ui,sans-serif;margin:0}
+.when{color:var(--muted);font-size:.95rem;margin:0 0 .4rem}
+.jobs p{margin:0}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1.25rem}
+.skills div{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1rem 1.25rem}
+.skills h3{font:700 1rem "Bricolage Grotesque",system-ui,sans-serif;margin:0 0 .35rem}
+.skills p{margin:0;font-size:1rem;line-height:1.55}
+footer{padding:2rem 0 4rem;color:var(--muted);font-size:.95rem}
+</style>
 </head>
 <body>
-	<div id="page-wrap" >
-		<div id="pic">
-			<img style="width:225px;height: auto; border-radius: 150px;"src="./images/madhur.jpg" alt="Photo of Madhur" />
-			<div id = "social">
-				<ul>
-					<li><a href= "https://github.com/madhurnitc">github</a></li>
-					<li><a href= "https://www.facebook.com/madhur.crazy">facebook</a></li>
-					<li><a href= "https://www.linkedin.com/in/madhurguptanitc">linkedin</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id = "text">
-			<div id="contact-info" class="vcard">
-				<!-- Microformats! -->
-				<h1 class="fn">MADHUR GUPTA</h1>
-			</div>
-			<div id="objective">
-				<p>
-					Email: <a href="mailto:madhurgu@buffalo.edu">madhurgu@buffalo.edu</a> <br>
-					Phone: 716 (650)-8951<br><br>
-					Hi there.
-					<p>I am a Computer Science Graduate from University at Buffalo (UB). I have completed MS with curriculum consisting of Operating Systems. Distributed Systems, Machine Learning, Modern Networking Concepts, Algorithms for Modern Computer Systems, Computer Security, Parallel and Distributed Systems,Big data and Machine Learning. My recent projects include OS161- Virtual Memory implementation, Amazon Dynamo Based Distributed Key- Value storage, Hand Written Digit Classification.</p>
-					<p>Before joining UB, I worked as a Software Engineer at CA Technologies. During My tenure at CA, I worked and developed software features on Java, JSP Servlets , Java Web Services and C++. I also worked with people from different teams and organizations which include product management, Technical Support and Customers which were using the product.</p>
-					<p>I have had some amazing opportunities and projects, contributed effectively to those and been awarded for them. "Above and Beyond Award" and "Most Valuable Team Player" at CA Technologies, just to name a few. I like to conceptualize and develop solutions and products. I believe in inspiration from problems around us and strive to code their solutions and think of it as a product. I am looking for full time opportunities starting January 2016.
-					You can scroll down to learn more about me or you can <a href = "./resume/madhur_gupta_resume.pdf">download my resume</a>.<br><br> </p>
-				</p>
-			</div>
-			<div class="clear"></div>
-			<dl>
-				<!------------------------------------------------------------------------ -->
-				<dd class="clear"></dd>
-				<dt>EDUCATION</dt>
-				<dd>
-					<h2><a href="http://www.buffalo.edu/">University at Buffalo</a><span>Aug 2014 - Dec 2015</span></h2>
-					<p><strong>Masters </strong> in Computer Science<span style="float:right">GPA 3.50 </span>
-					</p>
-					<div style="clear: both;"></div>
-					<h2><a href="http://nitc.ac.in/">National Institute of Technology, Calicut, Kerala, India</a><span>Aug 2005 - Jun 2009</span></h2>
-					<p><strong>Bachelor of Technology </strong> in Computer Science and Engineering<span style="float:right">FIRST CLASS</span>
-					</p>
-					<div style="clear: both;"></div>
-					<p><i>Coursework:</i> Operating Systems, Distributed Systems, Machine Learning, Networking Concepts, Computer Security,  Algorithms, Big Data and Machine Learning</p>
-					.
-				</dd>
-				<!------------------------------------------------------------------------ --> 
-				<dd class="clear"></dd>
-				<dt>SKILLS</dt>
-				<dd>
-					<h2>Languages</h2>
-					<p>Core Java, JSP & Servlets, J2EE, Java Web Services, Python, C, C ++, R, HTML, JAVA Script, JQuery, Bash.</p>
-					<h2>Technologies & Frameworks</h2>
-					<p>Git, JUnit, IBM Rational Team Concert, MS SQL, MySQL, Selenium, IBM CQ, Spring, Hibernate, Node.js, Angular.js.</p>
-					<h2>Big Data and Parallel Processing Technologies</h2>
-					<p>Apache Spark, Apache Hadoop,NVIDIA CUDA.</p>
-				</dd>
-				<!------------------------------------------------------------------------ -->
-				<dd class="clear"></dd>
-				<dt>PROFESSIONAL EXPERIENCE</dt>
-				<dd>
-					<h2>CA Technologies <span>Hyderabad, India</span></h2>
-                    <h2>Software Engineer <span> Aug 2011 - Jul 2014</span></h2>
-                    <h2>Associate Software Engineer <span> Jun 2009 - Jul 2011</span></h2>
-					<ul>
-						Worked directly with the Product Management to gather new feature requirements. Designed, estimated and implemented new product features. Interacted with QA teams and Performed sustaining of the product, addressed and resolved customer issues. Automated Unit test cases and system test cases which resulted in reduced manual testing effort.
-					</ul>
-				</dd>
-				<!------------------------------------------------------------------------ -->
-				<dd class="clear"></dd>
-				<dt>INDEPENDENT PROJECTS</dt>
-				<dd>
-					<h2><a href="https://github.com/madhurnitc/Interactive-Programming-in-Python">Interactive Programming in (Python)</a><span>Summer 2015</span></h2>
-					<ul>
-						Implemented various arcade games like Rice Rocks, Pong, Black Jack, Memory.Used GUI programming in Python for the development of these games.
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/R-Programming/" >Data Science using R (R Studio, Slidify, RPubs, ShinyApps)</a><span>Summer 2015 </span></h2>
-					<ul>
-					   Performed data extraction, regression analysis, statistical Inference and machine learning algorithms on various data sets using R. Presented the data and results using Slidify, RPubs and ShinyApps.
-					</ul>
-				</dd>
-				<!------------------------------------------------------------------------ -->
-				<dd class="clear"></dd>
-				<dt>ACADEMIC PROJECTS</dt>
-				<dd>
-                    <h2> <a href="https://github.com/madhurnitc/Big-Data-and-Machine-Learning">Big Data and Machine Learning</a><span> Fall 2015</span></h2>
-                    <ul> Analyzed Bayesian inference’s performance on ML frameworks of Apache Spark, MapReduce, NLTK on a large data set of Buffalo 311 Call and Resolution Center.
-                         Predicted the future "response center"for the complain  with 85% Accuracy. Grouped the complains based on locality so the concerned department can take correcctive measures to reduce complains of similar type in future.
-                    </ul>
-					<h2>Harvard OS/161<span>Spring 2015</span></h2>
-					<ul>
-						Designed and implemented synchronization primitives (sleep-lock, condition variable, readers-writer lock), system call support for file system related and process related system calls (open, close, read, write, fork, execv, etc.), and the virtual memory system
-						(management of the TLB, paging, and page reclamation mechanisms) for the Harvard OS/161 kernel.
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/Group-Messenger">Android Group Messenger</a> <span>Spring 2015 </span></h2>
-					<ul>
-						Built a group messenger application in Android, which multicast messages to multiple application instances. Further, provided total and FIFO Ordering amongst messages using the ISIS algorithm and handled node failures using the heartbeat protocol. 
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/SimpleDht">Distributed Hash Table Using Chord </a><span>Spring 2015</span></h2>
-					<ul>Implemented a simplified version of a distributed hash table using the chord algorithm. Used ring based routing and ID space partitioning and re-partitioning. Also handled node joins. Android application instances behaved as nodes, and the content provider gave the abstraction for a key-value storage.
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/SimpleDynamo">Amazon Dynamo Style Key-Value Storage</a><span>Spring 2015</span></h2>
-					<ul>
-						As an extension of the previous two projects, implemented a simplified version of Amazon Dynamo (membership partitioning, chain replication, request routing & failure handling), providing availability and linearizability. 
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/Handwritten-Digits-Classification-">Handwritten Digits Classification </a><span>Spring 2015</span></h2>
-					<ul>
-						Implemented a basic Multilayer Perceptron Neural Network and evaluated its performance in classifying handwritten digits (from
-						the MNIST dataset). Implemented feature selection on the dataset; used a validation set to tune the hyper-parameters for the
-						neural network by performing feed forward and back propagation and also incorporating regularization.
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/Regression-and-Classification">Predicting Diabetes Levels Using Regression</a><span>Spring 2015</span></h2>
-					<ul>
-						Used four regression techniques: linear regression, ridge regression (with and without gradient descent), and non-linear regression to predict diabetes levels in patients, and compared their performance.
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/Remote-File-Sharing-System-">File Sharing Application </a><span>Fall 2014</span></h2>
-					<ul>
-						Developed a simple application for file sharing among remote hosts, using TCP sockets. The processes on different hosts worked like a UNIX shell; multiple connections were handled using the select() API.
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/Reliable-Transport-Protocol">Reliable Transport Protocols </a><span>Fall 2014</span></h2>
-					<ul>
-						Implementated three well known transport layer protocols for reliable transport: Alternating Bit, Go Back N and Selective Repeat (as part of an assignment).
-					</ul>
-					<h2><a href="https://github.com/madhurnitc/Distributed-Distance-Vector-Routing-Protocol">Distance Vector Protocol</a><span>Fall 2014</span></h2>
-					<ul>
-						Implemented a simplified version of the Distance Vector Routing Protocol using the Bellman Ford algorithm. The protocol ran on top of servers behaving as router nodes, using UDP sockets; used routing table updates to compute the shortest paths between nodes.
-					</ul>
-				</dd>
-				<!------------------------------------------------------------------------ -->
-				<dd class="clear"></dd>
-				<dt>REFERENCES</dt>
-				<dd>Available on request.<br><br><br><br><br><br><br></dd>
-				<dd class="clear"></dd>
-			</dl>
-			<div class="clear"></div>
-		</div>
-		<footer>
-			<ul>
-				<li>&bull; Designed by <a href="/">Madhur Gupta</a> using <a href="https://css-tricks.com/one-page-resume-site/">this template</a></li>
-				</ul>
-			</footer>
-		</div>
-	</body>
-	</html>
+<div class="wrap">
+<header>
+  <h1>Madhur Gupta</h1>
+  <p class="lede">Senior software engineer with 15+ years building storage systems, backend services and LLM-powered tooling.</p>
+  <nav aria-label="Primary">
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I've worked on file-system internals at Dell, health-insurance microservices at Blue Cross Blue Shield of Florida, and cloud storage at Oracle. Lately I've been building agentic AI pipelines that triage bugs. I like systems where correctness and performance both matter.</p>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <ol class="jobs">
+    <li>
+      <h3>Senior Software Engineer, Dell Technologies</h3>
+      <p class="when">Jacksonville, FL · April 2022 – July 2026</p>
+      <p>Worked on Dell PowerScale OneFS, including kernel-level journal mirroring and SmartPools. Built an agentic AI bug-triage pipeline.</p>
+    </li>
+    <li>
+      <h3>Senior Software Engineer, Blue Cross Blue Shield of Florida</h3>
+      <p class="when">April 2019 – March 2022</p>
+      <p>Built microservices for health-insurance renewals on Netflix Conductor, Kafka and ElasticSearch data ingestion, and Prometheus and Grafana monitoring.</p>
+    </li>
+    <li>
+      <h3>Member of Technical Staff, Oracle</h3>
+      <p class="when">Buffalo, NY · April 2016 – March 2019</p>
+      <p>Worked on cloud storage migration and service health monitoring.</p>
+    </li>
+    <li>
+      <h3>Software Engineer, CA Technologies (now Broadcom)</h3>
+      <p class="when">Hyderabad, India · June 2009 – July 2014</p>
+      <p>Developed enterprise software products.</p>
+    </li>
+  </ol>
+  <p>MS in Computer Science, University at Buffalo (2016). BTech in Computer Science, NIT Calicut (2009).</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Languages</h3><p>Java, Python, C, C++, SQL</p></div>
+    <div><h3>Backend</h3><p>Spring Boot, Kafka, ElasticSearch, FastAPI</p></div>
+    <div><h3>Infrastructure</h3><p>Docker, Kubernetes, Azure, Prometheus, Grafana</p></div>
+    <div><h3>AI tooling</h3><p>LangGraph, Claude, GPT-4, Pinecone</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a><br>
+    <a href="https://github.com/YOUR_GITHUB_USERNAME">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a>
+  </p>
+</section>
+
+<footer>© <span id="y"></span> Madhur Gupta</footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
